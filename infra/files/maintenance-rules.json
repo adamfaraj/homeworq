@@ -1,0 +1,1684 @@
+[
+  {
+    "device": "hvac",
+    "location": "interior",
+    "category": "hvac",
+    "task": "Vacuum out return grills",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["vacuum"],
+    "region_variants": {
+      "coastal": {
+        "frequency": "monthly",
+        "note": "More salt corrosion risk—clean grills monthly."
+      },
+      "inland": {
+        "frequency": "quarterly",
+        "note": "Lower humidity—can reduce to every 3 months."
+      }
+    }
+  },
+  {
+    "device": "hvac",
+    "location": "interior",
+    "category": "hvac",
+    "task": "1/4 cup dist. white vin in drain pump tank",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["vacuum"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "furnace",
+    "location": "interior",
+    "category": "hvac",
+    "task": "Inspect filter",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["vacuum"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "smoke_detector",
+    "location": "interior",
+    "category": "safety",
+    "task": "Test",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["ladder"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "gfci_outlet",
+    "location": "interior",
+    "category": "safety",
+    "task": "Test",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["GFCI tester"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "fire_extinguisher",
+    "location": "interior",
+    "category": "safety",
+    "task": "Inspect",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+   {
+    "device": "fridge",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Vacuum coils",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["coil brush", "vacuum"],
+    "region_variants": {
+      "coastal": {
+        "frequency": "monthly",
+        "note": "More salt corrosion risk—clean coils monthly."
+      },
+      "inland": {
+        "frequency": "quarterly",
+        "note": "Lower humidity—can reduce to every 3 months."
+      }
+    }
+  },
+  {
+    "device": "plumbing",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Inspect basement/crawl space for leaks",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "plumbing",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Clean drain screens",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "garbage_disposal",
+    "location": "interior",
+    "category": "kitchen",
+    "task": "Clean/clear",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "dishwasher",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Clean/clear filter",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "washing_machine",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Clean/clear filter",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "microwave",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Inspect filters",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "vacuum",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Clean filters",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "vacuum",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Clean brush",
+    "schedules":[
+      {
+        "frequency": "monthly",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "ac",
+    "location": "exterior",
+    "category": "hvac",
+    "task": "Service Clean",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "gutters",
+    "location": "exterior",
+    "category": "exterior",
+    "task": "Clean",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Clear spring debris"
+      },
+      {
+        "frequency": "seasonal",
+        "season": "fall",
+        "note": "Remove leaves after fall drop"
+      }
+    ],
+    "tools_needed": ["ladder"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "gutters",
+    "location": "exterior",
+    "category": "exterior",
+    "task": "Flush drain pipes",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Clear spring debris"
+      },
+      {
+        "frequency": "seasonal",
+        "season": "fall",
+        "note": "Remove leaves after fall drop"
+      }
+    ],
+    "tools_needed": ["ladder"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "garage_door",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Oil track, chain, springs",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": "Oil garage door components"
+      }
+    ],
+    "tools_needed": ["oil", "ladder"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "garage_door",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Check auto-reverse",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": "Check garage door auto-reverse by interrupting the beam"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "garage_door",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Replace batteries (openers)",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": "Only if needed"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "windows",
+    "location": "exterior",
+    "category": "windows",
+    "task": "Clean weep holes",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": "Remove debris from weep holes"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "patio_furniture",
+    "location": "exterior",
+    "category": "outdoor",
+    "task": "Clean",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Clean patio furniture and bring out"
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Clean and store patio furniture for winter"
+      }
+    ],
+    "tools_needed": ["hose", "brush"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "solar_lights",
+    "location": "exterior",
+    "category": "lighting",
+    "task": "Clean",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Remove debris from solar lights"
+      }
+    ],
+    "tools_needed": ["water", "microfiber cloth"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "foundation",
+    "location": "exterior",
+    "category": "foundation",
+    "task": "Spray insect barrier",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Apply insect barrier around foundation"
+      }
+    ],
+    "tools_needed": ["bug spray"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "trees",
+    "location": "exterior",
+    "category": "outdoor",
+    "task": "Trim dead branches",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Remove dead branches from trees"
+      }
+    ],
+    "tools_needed": ["pruning shears"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "ac",
+    "location": "interior",
+    "category": "HVAC",
+    "task": "Cover unit (top only)",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Cover AC unit to protect from debris"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "basement_windows",
+    "location": "exterior",
+    "category": "windows",
+    "task": "Clear window wells",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Remove debris from window wells"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "spigot",
+    "location": "exterior",
+    "category": "plumbing",
+    "task": "Winterize spigot",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": "Disconnect and drain garden hoses. Cover with frost shield"
+      }
+    ],
+    "tools_needed": ["frost shield"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "ac",
+    "location": "interior",
+    "category": "hvac",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": "Inspect drip line operation/drainage"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "gutters",
+    "location": "exterior",
+    "category": "drainage",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Inspect gutters for debris and damage"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "roof",
+    "location": "exterior",
+    "category": "roofing",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Inspect shingles for damage"
+      }
+    ],
+    "tools_needed": ["ladder"],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "windows",
+    "location": "exterior",
+    "category": "windows",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Inspect exterior caulking and weather stripping"
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Inspect exterior caulking and weather stripping"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "doors",
+    "location": "exterior",
+    "category": "doors",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Inspect exterior caulking and weather stripping"
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Inspect exterior caulking and weather stripping"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "basement",
+    "location": "exterior",
+    "category": "foundation",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": "Inspect foundation for moisture"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "garage",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Inspect door seals"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "lighting",
+    "location": "exterior",
+    "category": "lighting",
+    "task": "Inspect",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": "Confirm all exterior lights are operational"
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  },
+  {
+    "device": "water_heater",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Drain sediment",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "attic",
+    "location": "interior",
+    "category": "insulation",
+    "task": "Install film insulation on attic windows",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "water_heater",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Test pressure relief valve",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "furnace",
+    "location": "interior",
+    "category": "hvac",
+    "task": "Change filter",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "dryer",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Clean dryer vent duct",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "plumbing",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Test emergency primary shut offs",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "sump_pump",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Test",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "plumbing",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Test emergency secondary shut offs",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "plumbing",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Turn off secondary shut offs to spigots",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "windows",
+    "location": "interior",
+    "category": "windows",
+    "task": "Clean screens",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "fixtures",
+    "location": "interior",
+    "category": "fixtures",
+    "task": "Tighten hand rails and door knobs",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "microwave",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Replace filters",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "shower_sink",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Clean aerators and flow reducers",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "fridge",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Replace water filter",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "stove",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Scrub and clean interior floor",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "dryer",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Interior inspection and lint cleaning",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "washing_machine",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Pull drum, inspect and scrub mildew",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "attic",
+    "location": "interior",
+    "category": "insulation",
+    "task": "Inspect for water leaks or animals",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "windows",
+    "location": "interior",
+    "category": "windows",
+    "task": "Inspect seals",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "attic",
+    "location": "interior",
+    "category": "ventilation",
+    "task": "Inspect and ensure soffit vents are clear",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "doors",
+    "location": "interior",
+    "category": "doors",
+    "task": "Inspect seals",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "basement",
+    "location": "interior",
+    "category": "foundation",
+    "task": "Inspect for moisture",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "attic",
+    "location": "interior",
+    "category": "insulation",
+    "task": "Inspect attic insulation condition",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "riding_mower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Change oil, filter, and fuel filter",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "snow_blower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Change oil, filter, and fuel filter",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "push_mower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Change oil, air filter, and fuel filter",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "snow_blower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Run and test",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "chainsaw",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Run, test, and tune",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "riding_mower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Winterize",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "weedwhacker",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Run, test, and tune",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "push_mower",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Winterize",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "gas",
+    "location": "exterior",
+    "category": "fuel",
+    "task": "Fill gas cans",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "spring",
+        "note": ""
+      },
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "chainsaw",
+    "location": "exterior",
+    "category": "equipment",
+    "task": "Winterize",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "hoses",
+    "location": "exterior",
+    "category": "plumbing",
+    "task": "Drain and bring in to store",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "air_purifier",
+    "location": "interior",
+    "category": "air_quality",
+    "task": "Replace filters",
+    "schedules": [
+      {
+        "frequency": "yearly",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "siding",
+    "location": "exterior",
+    "category": "structure",
+    "task": "Pressure wash",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["pressure washer"],
+    "region_variants": {}
+  },
+  {
+    "device": "chimney",
+    "location": "exterior",
+    "category": "structure",
+    "task": "Sweep",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["chimney brush"],
+    "region_variants": {}
+  },
+  {
+    "device": "porch",
+    "location": "exterior",
+    "category": "structure",
+    "task": "Pressure wash",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["pressure washer"],
+    "region_variants": {}
+  },
+  {
+    "device": "deck",
+    "location": "exterior",
+    "category": "structure",
+    "task": "Pressure wash",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["pressure washer"],
+    "region_variants": {}
+  },
+  {
+    "device": "stairs",
+    "location": "exterior",
+    "category": "structure",
+    "task": "Pressure wash",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["pressure washer"],
+    "region_variants": {}
+  },
+  {
+    "device": "mulch",
+    "location": "exterior",
+    "category": "landscaping",
+    "task": "Replace or replenish",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "driveway",
+    "location": "exterior",
+    "category": "paving",
+    "task": "Seal",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["driveway sealer"],
+    "region_variants": {}
+  },
+  {
+    "device": "plumbing",
+    "location": "exterior",
+    "category": "plumbing",
+    "task": "Sewer line clearing and inspection",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["plumbing snake", "camera (optional)"],
+    "region_variants": {}
+  },
+  {
+    "device": "smoke_detector",
+    "location": "interior",
+    "category": "safety",
+    "task": "Replace backup battery",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["ladder", "battery"],
+    "region_variants": {}
+  },
+  {
+    "device": "grout",
+    "location": "interior",
+    "category": "bathroom",
+    "task": "Reseal",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["grout sealer"],
+    "region_variants": {}
+  },
+  {
+    "device": "water_heater",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Have water heater inspected",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {}
+  },
+  {
+    "device": "weedwhacker",
+    "location": "interior",
+    "category": "tools",
+    "task": "Replace line",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["replacement line"],
+    "region_variants": {}
+  },
+  {
+    "device": "pressure_washer",
+    "location": "interior",
+    "category": "tools",
+    "task": "Change oil and filter",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["oil", "oil filter"],
+    "region_variants": {}
+  },
+  {
+    "device": "riding_mower",
+    "location": "interior",
+    "category": "tools",
+    "task": "Replace blades",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["wrench", "replacement blades"],
+    "region_variants": {}
+  },
+  {
+    "device": "push_mower",
+    "location": "interior",
+    "category": "tools",
+    "task": "Replace blades",
+    "schedules": [
+      {
+        "frequency": "biennial",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["wrench", "replacement blades"],
+    "region_variants": {}
+  },
+  {
+    "device": "deck",
+    "location": "exterior",
+    "category": "outdoor",
+    "task": "Reseal",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["deck sealer", "brush or roller"],
+    "region_variants": {}
+  },
+  {
+    "device": "windows",
+    "location": "exterior",
+    "category": "windows",
+    "task": "Recalk around frames",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["caulk", "caulk gun"],
+    "region_variants": {}
+  },
+  {
+    "device": "garage",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Replace door seal",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["replacement seal", "screwdriver"],
+    "region_variants": {}
+  },
+  {
+    "device": "doors",
+    "location": "exterior",
+    "category": "doors",
+    "task": "Recalk around frames",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["caulk", "caulk gun"],
+    "region_variants": {}
+  },
+  {
+    "device": "garage",
+    "location": "exterior",
+    "category": "garage",
+    "task": "Recalk around trim",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["caulk", "caulk gun"],
+    "region_variants": {}
+  },
+  {
+    "device": "siding",
+    "location": "exterior",
+    "category": "siding",
+    "task": "Repaint siding",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["paint", "brush or sprayer"],
+    "region_variants": {}
+  },
+  {
+    "device": "trim",
+    "location": "exterior",
+    "category": "siding",
+    "task": "Repaint trim",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["paint", "brush"],
+    "region_variants": {}
+  },
+  {
+    "device": "water_heater",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Replace anode rod",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["socket wrench", "replacement rod"],
+    "region_variants": {}
+  },
+  {
+    "device": "hvac",
+    "location": "interior",
+    "category": "hvac",
+    "task": "Duct cleaning",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["vacuum", "duct brush", "or service call"],
+    "region_variants": {}
+  },
+  {
+    "device": "washing_machine",
+    "location": "interior",
+    "category": "appliances",
+    "task": "Replace agitator dogs",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["screwdriver", "replacement parts"],
+    "region_variants": {}
+  },
+  {
+    "device": "windows",
+    "location": "interior",
+    "category": "windows",
+    "task": "Replace seals",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["sealant", "utility knife"],
+    "region_variants": {}
+  },
+  {
+    "device": "bath_tubs_showers",
+    "location": "interior",
+    "category": "bathroom",
+    "task": "Recalk",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["caulk", "caulk gun", "razor scraper"],
+    "region_variants": {}
+  },
+  {
+    "device": "doors",
+    "location": "interior",
+    "category": "doors",
+    "task": "Replace seals",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "fall",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["weatherstripping", "scissors"],
+    "region_variants": {}
+  },
+  {
+    "device": "sinks",
+    "location": "interior",
+    "category": "plumbing",
+    "task": "Recalk",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "summer",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["caulk", "caulk gun"],
+    "region_variants": {}
+  },
+  {
+    "device": "baseboards",
+    "location": "interior",
+    "category": "walls",
+    "task": "Repaint",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "winter",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["paint", "brush"],
+    "region_variants": {}
+  },
+  {
+    "device": "chainsaw",
+    "location": "interior",
+    "category": "tools",
+    "task": "Replace chain",
+    "schedules": [
+      {
+        "frequency": "five_year",
+        "season": "spring",
+        "note": ""
+      }
+    ],
+    "tools_needed": ["replacement chain", "wrench"],
+    "region_variants": {}
+  },
+  {
+    "device": "electrical_panel",
+    "location": "interior",
+    "category": "electrical",
+    "task": "Inspection and tightening",
+    "schedules": [
+      {
+        "frequency": "ten_year",
+        "note": "Ensure all connections are tight and free of corrosion"
+      }
+    ],
+    "tools_needed": ["screwdriver", "voltage tester", "flashlight"],
+    "region_variants": {}
+  },
+  {
+    "device": "co_smoke_detector",
+    "location": "interior",
+    "category": "safety",
+    "task": "Replace unit",
+    "schedules": [
+      {
+        "frequency": "ten_year",
+        "note": "Replace entire unit per manufacturer recommendation"
+      }
+    ],
+    "tools_needed": ["screwdriver", "replacement unit"],
+    "region_variants": {}
+  },
+  {
+    "device": "",
+    "location": "",
+    "category": "",
+    "task": "",
+    "schedules": [
+      {
+        "frequency": "",
+        "season": "",
+        "note": ""
+      }
+    ],
+    "tools_needed": [],
+    "region_variants": {
+    }
+  }
+]
